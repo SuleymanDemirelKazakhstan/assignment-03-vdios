@@ -1,7 +1,86 @@
 <html>
 <head>
 <style>
-/* Write your code here */
+
+  body{
+    margin:0px;
+    font-weight:bold;
+    background-image:url("http://backgroundlabs.com/wp-content/uploads/2013/04/subtle-mosaic-pattern.png");
+    background-color: lightpink;
+  }
+  .container{
+    margin:0px auto;
+    width:50vw;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+  }
+  
+  nav{
+    display:flex; 
+    justify-content:space-evenly; 
+    background:#c7c6c1; 
+  }
+  nav a{
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+    text-align:center;
+    flex-grow:1;
+  }
+  nav a:hover{
+    background-color:red;
+    color:white;
+  }
+
+  .logo_part{
+    background-color:white;
+    display:flex;
+  }
+  .search{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-grow:1;
+  }
+  .search input{
+    margin:5px;
+  }
+
+  .main_section{
+    background-color:white;
+  }
+
+  .cards{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+  }
+  .card{
+    border:1px solid red;
+    border-radius:3px;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    margin:15px;
+  }
+  .title{
+    text-decoration:none;
+    background-color:#0197f6;
+    color:white;
+  }
+
+  footer{
+    margin-top:auto;
+    background-color:black;
+    color:white;
+    height:50px;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  }
+
 </style>
 </head>
 <body>
@@ -87,5 +166,6 @@
   @copy; 2017 Wheels.kz. All cars
 </footer>
 </div>
+</body>
 </html>
 
